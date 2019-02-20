@@ -1,0 +1,161 @@
+
+@font-face
+{
+   font-family: "Champagne&Limousines";
+   src: url("../RECURSOS/Fuentes/champagne_limousines/Champagne&Limousines.ttf");
+   
+}
+
+
+
+
+
+
+
+@font-face
+{
+   font-family: "Champagne&Limousines Bold";
+   src: url("../RECURSOS/Fuentes/champagne_limousines/Champagne&LimousinesBold.ttf");
+   
+}
+
+
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Background {
+    width: 100%;
+    height: 100%;
+    background-image: url(../RECURSOS/FondoContacto.jpg);
+	background-position:center;
+    background-size: cover;
+    
+}
+
+.Contacto{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
+    
+}
+form{
+    font-family: sans-serif;
+    color: white;
+    width: 350px;
+    margin: auto;
+    background: rgba(0,0,0,0.0);
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+h2{
+	font-family: "Champagne&Limousines Bold";
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+textarea,input{
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+::-webkit-input-placeholder { 
+    color: rgb(255,255,255);
+    
+}
+
+textarea{
+    color: white;
+    border: 1px solid white;
+    border-top: none;
+    min-height: 50px;
+    max-height: 100px;
+    max-width: 100%;
+}
+
+#boton{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+
+p{
+	font-family: "Champagne&Limousines Bold";
+    width: 100%;
+    text-align:center;
+    color: white;
+	font-size:15pt;
+}
+
+ul{
+list-style:none;
+
+height:50px;
+display:flex;
+justify-content:center;
+align-content:center;
+}
+
+
+
+
+.Redes {
+	
+	display:block;
+    color: white;
+  width:40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.facebook{
+   margin-left:-3%;
+    background-image: url(../Recursos/RedesSociales/Facebook/facebook.png);
+    
+}
+
+.facebook:hover{
+    background-image: url(../Recursos/RedesSociales/Facebook/logo-de-aplicacion-de-facebook.png);
+    transition: 1s;
+    cursor: pointer;
+}
+.instagram{
+
+   margin-left:5%;
+    background-image: url(../Recursos/RedesSociales/Instagram/Instagram.png);
+}
+
+
+.instagram:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../Recursos/RedesSociales/Instagram/Instagram-releno.png);
+}
+.Redes a :hover{
+    background: none;
+}
+.Redes a {
+    
+    height: 100%;
+}

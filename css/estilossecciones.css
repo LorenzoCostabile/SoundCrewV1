@@ -1,0 +1,805 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face
+{
+   font-family: "Champagne&Limousines";
+   src: url("../RECURSOS/Fuentes/champagne_limousines/Champagne&Limousines.ttf");
+   
+}
+
+@font-face
+{
+   font-family: "Champagne&Limousines Bold";
+   src: url("../RECURSOS/Fuentes/champagne_limousines/Champagne&LimousinesBold.ttf");
+   
+}
+
+
+
+
+p{
+    font-family: "Champagne&Limousines Bold";
+    cursor:context-menu;
+}
+
+h2,h1{
+    font-family: "Champagne&Limousines Bold";
+}
+
+html,body{
+    margin: auto;
+    height: 100%;
+}
+
+
+.Secciones{
+    
+    width: 100%;
+    position: relative;
+    margin: 0 auto 0px auto;
+    
+}
+.SeccionesUl {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    top: 25%;;
+    z-index: 999;
+    background: rgba(255,255,255,0.5);
+    list-style: none;
+    
+}
+.SeccionesUl li{
+    margin: auto;
+    margin-bottom: 2%;
+    
+    margin-top: 2%;
+}
+
+.Secciones .SeccionesUl li div p{
+    text-align: center;
+	margin-top: 10px;
+	font-size:15pt;
+    
+	
+}
+
+
+
+
+.toggle{
+    float: left;
+    margin-top: 0px;
+       
+   
+}
+
+.seccionToggle1,.seccionToggle2,.seccionToggle3,.seccionToggle4{
+    float: left;
+    padding-top: 0px;
+    margin: 0px 0;
+     display: none;
+    width: 100%;
+    overflow: hidden;
+    
+    
+            
+}
+
+.seccionToggle1{
+    
+}
+.seccionToggle1-abajo{
+    padding-top: 20px;
+    margin: 20px 0;
+    display: inline-block;
+    float: left;
+}
+.seccion1 .Fondo{
+    float: left;
+    background-image: url(../Recursos/FondoSecciones/Seccion1.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    background-position:  3% 30%;
+}
+
+
+
+
+.SeccionesUl li:hover{
+    cursor: pointer;
+
+}
+.btn-toggle1 div{
+width: 128px;
+height:128px;
+background-image:url("../RECURSOS/iconosServicio/SonidoIcono.png");
+transition:1s;
+}
+
+.btn-toggle1 div:hover{
+
+background-image:url("../RECURSOS/iconosServicio/SonidoIconoHover.png");
+transition:1s;
+}
+
+.btn-toggle2 div{
+width: 128px;
+height:128px;
+background-image:url("../RECURSOS/iconosServicio/IluminacionIcono.png");
+transition:1s;
+}
+
+.btn-toggle2 div:hover{
+
+background-image:url("../RECURSOS/iconosServicio/IluminacionIconoHover.png");
+transition:1s;
+}
+
+.btn-toggle3 div{
+width: 128px;
+height:128px;
+background-image:url("../RECURSOS/iconosServicio/VideoIcono.png");
+transition:1s;
+}
+
+.btn-toggle3 div:hover{
+transition:1s;
+background-image:url("../RECURSOS/iconosServicio/VideoIconoHover.png");
+
+}
+
+
+
+.SeccionesUl li:hover .sonido,.SeccionesUl li:hover .iluminacion,.SeccionesUl li:hover .video{
+	opacity:1;
+	transition:1s;
+}
+
+.Separador{
+    float: left;
+    width: 100%;
+    height: 5px;
+    background: white;
+}
+
+.seccion1 a, .seccion2 a, .seccion3 a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    float: right;
+    font-family: "Champagne&Limousines Bold";
+    background: rgba(255,255,255);
+    opacity: 0;
+}
+.fondoArticulo1:hover  a, .fondoArticulo2:hover  a, .fondoArticulo3:hover  a{
+    opacity: 1;
+    transition: 1s;
+}
+
+.fondoArticulo1:hover  a:hover, .fondoArticulo2:hover  a:hover, .fondoArticulo3:hover  a:hover{
+    color: white;
+    background: rgba(0,0,0);
+    transition: 1s;
+}
+
+
+.seccion1 h1{
+	color: white;
+	border-bottom: 5px solid white;
+	font-size: 50pt;
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.seccion1,.seccion2,.seccion3{
+    width: 100%;
+}
+
+
+.FondoOpaco{
+    width: 70%;
+    /*background: rgba(0,0,0,0.8);*/
+    background-size:  90% 90%;
+    float: left;
+    margin-left: 17%;
+    margin-bottom: 5%;
+
+}
+.seccion1 .articulo1{
+    height: 30%;
+	float:left;
+    width: 33%;
+    
+} 
+
+
+.seccion1 .articulo1 p{
+	width:100%;
+    opacity: 0;
+    position: relative;
+    margin-left: 0;
+    color: white;
+	border-bottom: 5px solid white;
+	border-right: 5px solid white;
+	padding:10px 20px 20px 10px ;
+    text-align: left;
+    
+}
+
+
+
+.seccion1 .fondoArticulo1{
+    width: 100%;
+    height: 420px;
+    background-image:url(../Recursos/seccion1/articulo1/Dise%C3%B1tuercaCerrado.png);
+    background-size: 70%;
+    background-position:  50% 40%;
+    
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion1 .fondoArticulo1:hover{
+
+    
+        background-image:url(../fgshRecursos/seccion1/articulo1/DisenioAbierto.png);
+        background-size: 80%;
+        background-position: 80px -100px ;
+   
+        
+     
+} 
+.seccion1 .articulo1 .fondoArticulo1:hover  h2{
+    opacity: 1;
+    transition: 1s;
+    background: rgba(0,0,0,0.8);
+}
+
+.seccion1 .fondoArticulo1:hover p {
+    opacity: 1;
+    transition:  0.3s;
+    background: rgba(0,0,0,0.8);
+} 
+
+
+
+.seccion1  .articulo2{
+    width: 33%;
+    float: left;
+	margin-top:0px;
+	 
+} 
+.seccion1 .articulo2 .fondoArticulo2 h2{
+	margin-bottom: 10px;
+    opacity: 0;
+    margin-left: 0;
+    color:white;
+}
+.seccion1 .articulo2 p{
+    margin-top: 5%;
+	width: 100%;
+    opacity: 0;
+    margin-left: 0;
+    margin-right: 0;
+	border-top: 5px solid white;
+	border-left: 5px solid white;
+	padding:20px 10px 10px 20px ;
+    text-align: left;
+    
+    color:white;
+}
+.seccion1 .fondoArticulo2{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/TecnicosCerrado.png);
+    background-size: 60%;
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    
+} 
+.seccion1 .fondoArticulo2:hover{
+
+    
+        background-image:url();
+     
+} 
+.seccion1 .articulo2 .fondoArticulo2:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion1 .fondoArticulo2:hover p{
+    opacity: 1;
+    background: rgba(0,0,0,0.8);
+    transition:  1s;
+} 
+
+
+
+
+.seccion1 .articulo3{
+width: 33%;
+float:left;
+margin-top:-30px;
+}
+.seccion1 .articulo3 .fondoArticulo3 h2{
+	margin-bottom:10px;
+    opacity: 0;
+    color:white;
+}
+
+
+.seccion1 .articulo3 p{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5%;
+    opacity: 0;
+	border-top: 5px solid white;
+	border-right: 5px solid white;
+	padding:20px 20px 10px 10px ;
+    text-align: left;
+    color:white;
+}
+
+.seccion1 .fondoArticulo3{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/Cerrado.png);
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion1 .fondoArticulo3:hover{
+
+    
+        background-image:url();
+     
+} 
+
+
+
+.seccion1 .articulo3 .fondoArticulo3:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion1 .fondoArticulo3:hover p{
+    background: rgba(0,0,0,0.8);
+    opacity: 1;
+    transition:  1s;
+} 
+
+
+
+
+
+.seccion2 .Fondo{
+    float: left;
+    background-image: url(../RECURSOS/FondoSecciones/Seccion2.jpg);
+   background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    background-position:  3% 0 ;
+    
+}
+
+.seccion2 h1{
+	
+	border-bottom: 5px solid white;
+	font-size: 50pt;
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:20px;
+    color: white;
+}
+
+.seccion2 .articulo1{
+	width: 33%;
+	float:left;
+} 
+.seccion2 .articulo1 h2{
+	margin-bottom: 10px;
+    color: white;
+    opacity: 0;
+}
+.seccion2 .articulo1 p{
+	width:100%;
+    opacity: 0;
+    margin-left: 0;
+    color: white;
+    margin-left: 0;
+	border-bottom: 5px solid white;
+	border-right: 5px solid white;
+	border-left:5px solid white;
+	padding:10px 20px 20px 20px ;
+    text-align: left;
+    opacity: 0;
+}
+
+.seccion2 .fondoArticulo1{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/DiseñtuercaCerrado.png);
+    background-size: 65%;
+    background-position: 50% 5%;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion2 .fondoArticulo1:hover{
+
+    
+        background-image:url();
+     
+} 
+.seccion2 .articulo1 .fondoArticulo1:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion2 .fondoArticulo1:hover p{
+    background: rgba(0,0,0,0.8);
+    opacity: 1;
+    transition:  1s;
+} 
+
+
+
+.seccion2 .articulo2{
+	
+	width: 33%;
+    float: left;
+} 
+
+.seccion2 .articulo2 h2{
+	margin-bottom: 10px;
+    color: white;
+    opacity: 0;
+}
+.seccion2 .articulo2 p{
+    width: 100%;
+    margin-top: 0%;
+    margin-right: 0;
+	border-top: 5px solid white;
+	border-right: 5px solid white;
+	border-left:5px solid white;
+	padding:20px 20px 10px 20px ;
+    text-align: left;
+    color: white;
+    opacity: 0;
+}
+
+
+.seccion2 .fondoArticulo2{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/EquiposIluminacionCerrado.png);
+    background-size: 65%;
+    background-position: 50% 1%;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion2 .fondoArticulo2:hover{
+
+    
+        background-image:url();
+     
+} 
+.seccion2 .articulo2 .fondoArticulo2:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion2 .fondoArticulo2:hover p{
+    background: rgba(0,0,0,0.8);
+    opacity: 1;
+    transition:  1s;
+} 
+
+
+.seccion2 .articulo3{
+	width: 33%;
+    float: left;
+} 
+
+.seccion2 .articulo3 h2{
+	margin-bottom: 10px;
+    color: white;
+    opacity: 0;
+}
+.seccion2 .articulo3 p{
+    
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    color: white;
+	border-top: 5px solid white;
+	border-right: 5px solid white;
+	text-align: left;
+	padding:20px 20px 10px 20px ;
+	opacity: 0;
+}
+
+
+
+.seccion2 .fondoArticulo3{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/MontajeCerrado.png);
+    background-size: 65%;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion2 .fondoArticulo3:hover{
+
+    
+        background-image:url();
+     
+} 
+.seccion2 .articulo3 .fondoArticulo3:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion2 .fondoArticulo3:hover p{
+    background: rgba(0,0,0,0.8);
+    
+    opacity: 1;
+    transition:  1s;
+} 
+
+
+
+.seccion3 .Fondo{
+    float: left;
+    background-image: url(../RECURSOS/FondoSecciones/Seccion3.jpg);
+    background-size: 100% 100% ;
+    
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    background-position:  26% 0;
+}
+
+.seccion3 h1{
+	
+	border-bottom: 5px solid white;
+	font-size: 50pt;
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:20px;
+    color: white;
+}
+
+.seccion3 .articulo1{
+    float:left;
+    width: 33%;
+} 
+.seccion3 .articulo1 h2{
+	margin-bottom: 10px;
+    color:white;
+    opacity: 0;
+}
+.seccion3 .articulo1 p{
+	width:100%;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 0;
+    border-bottom: 5px solid white;
+	border-right: 5px solid white;
+	padding:10px 20px 20px 10px ;
+    color:white;
+    opacity: 0;
+}
+
+
+
+.seccion3 .fondoArticulo1{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/EquiposCerrado.png);
+    background-size: 70%;
+   background-position: 50% 1%;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion3 .fondoArticulo1:hover{
+
+    
+        background-image:url();
+     
+} 
+.seccion3 .articulo1 .fondoArticulo1:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion3 .fondoArticulo1:hover p{
+    background: rgba(0,0,0,0.8);
+    opacity: 1;
+    transition:  1s;
+} 
+
+
+
+.seccion3 .articulo2{
+	float:left;
+    width: 33%;
+} 
+.seccion3 .articulo2 h2{
+	margin-bottom: 10px;
+    color:white;
+    opacity: 0;
+}
+.seccion3 .articulo2 p{
+	width:100%;
+    text-align: left;
+    margin-top: 5%;
+    margin-right: 0;
+    border-top: 5px solid white;
+	border-left: 5px solid white;
+	padding:20px 10px 10px 20px ;
+    color:white;
+    opacity: 0;
+}
+
+
+.seccion3 .fondoArticulo2{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/MontajeCerrado.png);
+    background-size: 70%;
+   background-position: 50% 1%;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion3 .fondoArticulo2:hover{
+
+    
+        background-image:url();
+     
+} 
+.seccion3 .articulo2 .fondoArticulo2:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion3 .fondoArticulo2:hover p{
+    background: rgba(0,0,0,0.8);
+    opacity: 1;
+    transition:  1s;
+} 
+
+
+
+.seccion3 .articulo3{
+float:left;
+    width: 33%;
+}
+.seccion3 .articulo3 h2{
+	margin-bottom:10px;
+    color: white;
+    opacity: 0;
+}
+.seccion3 .articulo3 p{
+    margin-top: 5%;
+    text-align: left;
+	border-top: 5px solid white;
+	border-right: 5px solid white;
+	padding:20px 20px 10px 10px ;
+    width: 100%;
+    opacity: 0;
+    margin-left: 0;
+    color: white;
+}
+
+.seccion3 .fondoArticulo3{
+    width: 100%;
+    height: 320px;
+    background-image:url(../Recursos/seccion1/articulo1/Cerrado2.png);
+    background-size: 80%;
+   background-position: 50% 1%;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.seccion3 .fondoArticulo3:hover{
+
+    
+        background-image:url();
+     
+} 
+.seccion3 .articulo3 .fondoArticulo3:hover  h2{
+    opacity: 1;
+    transition: 1s;
+}
+
+.seccion3 .fondoArticulo3:hover p{
+    background: rgba(0,0,0,0.8);
+    opacity: 1;
+    transition:  1s;
+} 
+
+
+
+.marcas{
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+ .marcas ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+     justify-content: center;
+     align-content: center;
+     
+}
+.marcas ul li{
+    width: 15%;
+    margin: 1%;
+
+}
+ .marcas ul li img{
+    width: 100%;
+     z-index: 99;
+}
+
+
+@media screen and (max-width:1100px){
+    
+    .seccion1 .articulo1, .seccion1 .articulo2, .seccion1 .articulo3,.seccion2 .articulo1, .seccion2 .articulo2, .seccion2 .articulo3,.seccion3 .articulo1, .seccion3 .articulo2, .seccion3 .articulo3{
+   
+    width: 100%;
+    
+} 
+    .seccion1 .fondoArticulo1{
+
+    background-position:  55% 60%;
+    
+    
+} 
+    
+    .seccion3 .fondoArticulo3,.seccion3 .fondoArticulo2, .seccion3 .fondoArticulo{
+
+        background-size: 50%;  
+    
+} 
+
+    
+    .SeccionesUl {
+    
+    top: 25%;
+        
+ 
+    
+}
+    
+}

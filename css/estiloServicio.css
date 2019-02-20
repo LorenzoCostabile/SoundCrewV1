@@ -1,0 +1,153 @@
+html,body{
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    
+    width: 100%;
+    float: left;
+}
+
+.SlideMain{
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.5);
+    position: absolute;
+    
+}
+
+.slidesjs-navigation {
+    position: absolute;
+    background: rgba(0,0,0,0);
+    color: rgba(0,0,0,0);
+    top: 0px;
+    
+}
+.slidesjs-navigation:hover{
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.InformacionAdicional{
+    margin-top: 5%;
+    width: 100%;
+    float: left;
+}
+.InformacionAdicional div{
+    width: 50%;
+    float: left;
+     height: 150px;;
+}
+.InformacionAdicional div h2{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.InformacionAdicional div p{
+    width: 100%;
+   
+}
+
+.garantias{
+    padding: 0 5% 3% 5% ;
+    border-bottom: 5px solid black;
+    border-left: 2.5px solid black;
+}
+.Asistencia{
+    padding: 0 5% 3% 5%;
+    border-bottom: 5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.FotosInsta{
+    float: left;
+    width: 100%;
+    height: 20%;
+    
+}
+
+.FotosInsta ul{
+    float: left;
+    list-style: none;
+    width: 100%;
+}
+.FotosInsta li img{
+    overflow: hidden;
+    width: 16.66666666%;
+    float: left;
+}
+.FotosInsta ul li .InstagramEnlace{
+    width: 16.66666666%;
+    float: left;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: 1s;
+}
+.FotosInsta #Primera{
+    background-image: url(../RECURSOS/FotosInsta/Primera.jpg);
+}
+
+.FotosInsta #Segunda{
+    background-image: url(../RECURSOS/FotosInsta/Segunda.jpg);
+}
+.FotosInsta #Tercera{
+    background-image: url(../RECURSOS/FotosInsta/Tercera.jpg);
+}
+.FotosInsta #Cuarta{
+    background-image: url(../RECURSOS/FotosInsta/Cuarta.jpg);
+}
+.FotosInsta #Quinta{
+    background-image: url(../RECURSOS/FotosInsta/Quinta.jpg);
+}
+.FotosInsta #Sexta{
+    background-image: url(../RECURSOS/FotosInsta/Sexta.jpg);
+}
+
+.FotosInsta ul li:hover .InstagramEnlace {
+    background-size: 150%;
+    background-position: center;
+    transition: 1s;
+}
+.FotosInsta li img:hover{
+    display: block;
+    width: 20%;
+    z-index: 99;
+}
+.TerceraImagen{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+
+@media screen and (max-width:1100px){
+    .InformacionAdicional div{
+    width: 100%;
+}
+    .garantias{
+    border-left: none;
+}
+.Asistencia{
+    border-right: none;
+    margin-bottom: 60px;
+}
+}

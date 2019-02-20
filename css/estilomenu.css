@@ -1,0 +1,327 @@
+@font-face
+{
+   font-family: "Astana";
+   src: url("astana/Astana.otf");
+   
+}
+
+@font-face
+{
+   font-family: "Market Deco";
+   src: url("market_deco/Market_Deco.ttf");
+   
+}
+
+@font-face
+{
+   font-family: "Daniel";
+   src: url("daniel/daniel.ttf");
+   
+}
+
+
+@font-face
+{
+   font-family: "Apple Sd Gothic";
+   src: url("apple-sd-gothic-neo/apple-sd-gothic-neo-regular.otf");
+   
+}
+
+@font-face
+{
+   font-family: "Champagne&Limousines Bold";
+   src: url("champagne_limousines/Champagne&LimousinesBold.ttf");
+   
+}
+
+@font-face
+{
+   font-family: "Anthoni";
+   src: url("anthoni_signature/AnthoniSignature.ttf");
+   
+}
+
+@font-face
+{
+   font-family: "Nilland";
+   src: url("nilland/Nilland-Bold.ttf");
+   
+}
+
+@font-face
+{
+   font-family: "Cocogoose-Classic-ExtraBold-trial";
+   src: url("cocogoose_classic/Cocogoose-Classic-ExtraBold-trial.ttf");
+   
+}
+@font-face
+{
+   font-family: "Cocogoose-Classic-Medium-trial";
+   src: url("cocogoose_classic/Cocogoose-Classic-Medium-trial.ttf");
+   
+}
+
+
+@font-face
+{
+   font-family: "Champagne&Limousines Bold Italic";
+   src: url("champagne_limousines/Champagne&LimousinesBoldItalic.ttf");
+   
+}
+
+@font-face
+{
+   font-family: "Champagne&Limousines Italic";
+   src: url("champagne_limousines/Champagne&LimousinesItalic.ttf");
+   
+}
+
+@font-face
+{
+   font-family: "Champagne&Limousines";
+   src: url("champagne_limousines/Champagne&Limousines.ttf");
+   
+}
+@font-face
+{
+	font-family: "Mystag"
+	src: url("mystag/Mystag.otf");
+}
+@font-face
+{
+	font-family: "Mystag Italic"
+	src: url("mystag/MystagItalic.otf");
+}
+/*
+
+* {
+	margin:0;
+	padding:0;
+}
+.logotipo{
+    
+    width: 300px;
+    top: 35px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: -50px;
+    transition: all .2s ease;
+    height: 400px;
+    
+    
+        
+}
+.menu-static .logotipo div{
+   
+}
+
+
+.logotipo a:hover{
+    background: none;
+}
+
+
+
+
+header {
+    
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+*/
+.menu-static {
+    
+    font-size: 20px;
+    position: fixed;
+    left:0;
+    top: 0;
+
+    width:100%;
+    z-index: 100;
+
+}
+
+
+nav ul {
+	list-style:none;
+    width: 100%;
+   
+}
+*/
+.menu-static > ul {
+	
+	width:100%;
+	background:rgba(0,0,0,0.5);
+}
+
+.menu-static > ul li {
+    height: 70px;
+    
+	
+}
+
+.MenuEntrada a:hover{
+    background:darkgray;
+    color: black;
+
+}
+/*Sub-menu*/
+
+
+
+*/
+.first{
+    background-image: url(../Recursos/LogosColores/soundcrewlogoSegundaComb.png);
+    transition: 3s;
+}
+.second{
+    background-image: url(../Recursos/LogosColores/soundcrewlogoTerceraComb.png);
+    transition: 3s;
+}
+.third{
+    background-image: url(../Recursos/LogosColores/soundcrewlogoPrimeraComb.png);
+    transition: 3s;
+}
+.fourth{
+    background-image: url(../Recursos/LogosColores/soundcrewlogoCuartaComb.png);
+    transition: 3s;
+}
+.logotipo{
+    
+    width: 40px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: -35px;
+    transition: all .2s ease;
+    height: 50px;
+
+}
+
+header{
+    
+    
+  width: 100%;
+    
+}
+
+.menu >ul{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    background: rgba(0,0,0,0.8);
+    height: 55px;
+    
+}
+
+
+.MenuEntrada{
+    float: left;
+    width: 12%;
+    margin-top:  1%;
+    
+
+}
+.Home{
+    margin-left: 5%;
+}
+.MenuEntrada> a{
+    font-family: "Champagne&Limousines Bold";
+    text-decoration: none;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24pt;
+    
+}
+.logotipo{
+    top: -1%;
+    right: 4%;
+    width: 100px;
+    position: fixed;
+}
+.Redes{
+     margin-left: 25%;
+    float: right;
+    height: 70px;
+    text-align: center;
+    color: white;
+    width: 2%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.facebook{
+    
+    background-image: url(../Recursos/RedesSociales/Facebook/facebook.png);
+    
+}
+
+.facebook:hover{
+    background-image: url(../Recursos/RedesSociales/Facebook/logo-de-aplicacion-de-facebook.png);
+    transition: 1s;
+    cursor: pointer;
+}
+.instagram{
+    margin-left: 1%;
+    background-image: url(../Recursos/RedesSociales/Instagram/Instagram.png);
+}
+
+
+.instagram:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../Recursos/RedesSociales/Instagram/Instagram-releno.png);
+}
+.Redes a :hover{
+    background: none;
+}
+.Redes a {
+    
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1100px){
+   
+.MenuEntrada{
+    float: left;
+    width: 16%;
+    margin-top:  1%;
+    
+
+}
+    
+    .MenuEntrada> a{
+    width: 100%;
+    color: white;
+    height: 10px;
+    padding: 10px;
+    margin: 0;
+            
+    font-size: 24pt;
+    
+}
+    .Home {
+        margin-right: 0;
+    }
+    .Servicios{
+        margin-right: 5%;
+    }
+        .Redes {
+            margin-top: 1.5%;
+        margin-left: 5%;
+            width: 30px;
+            float: right;
+    }
+    .instagram{
+        margin-left: 1%;
+    }
+}
+
